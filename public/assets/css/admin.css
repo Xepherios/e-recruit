@@ -1,0 +1,14 @@
+.custom-select {
+    background: none !important;
+}
+.dataTables_wrapper label, .dataTables_info{
+    font-size: 14px;
+}
+#interview_date {
+    background-color: #fff !important;
+}
+label.error {
+    color: #f5365c !important;
+    font-size: 12px;
+    margin-top: 5px;
+}

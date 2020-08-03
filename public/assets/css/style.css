@@ -1,0 +1,99 @@
+body {
+    background: #fcfcfc;
+}
+/* Margin Class */
+.m-t-1em {
+    margin-top: 1em !important;
+}
+.m-b-1em {
+    margin-bottom: 1em !important;
+}
+/* End Margin Class */
+
+/* Padding Class*/
+.p-l-0 {
+    padding-left: 0 !important;
+}
+.p-r-0 {
+    padding-right: 0 !important;
+}
+.p-l-15 {
+    padding-left: 15px !important;
+}
+.p-r-15 {
+    padding-right: 15px !important;
+}
+/* End Padding Class */
+
+.clear-both {
+    clear: both;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse > ul > .nav-item > .btn {
+        width: 100%;
+    }
+    .navbar-collapse > ul > .nav-item:not(:last-child) {
+        margin-bottom: 1em !important;
+    }
+}
+
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #fff !important;
+}
+
+label.error {
+    color: #f5365c !important;
+}
+
+a[data-page] {
+    cursor: pointer; 
+}
+.pagination {
+    justify-content: center;
+}
+
+a[data-page]:hover {
+    color: #fff !important;
+}
+
+.job-header {
+    border-bottom: 1px #eeeeee solid;
+}
+
+.min-width-100 {
+    min-width: 100px;
+}
+.min-width-200 {
+    min-width: 200px;
+}
+
+.profile-form-detail label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.profile-form-detail div p {
+    font-size: 0.9rem;
+}
+#work_experiences_edit_detail_zone .work-experience-block:not(:last-child) {
+    border-bottom: 1px #eeeeee solid; 
+}
+.work-experience-block:not(:first-child) {
+    padding-top: 0.5rem;
+}
+.work-experience-block {
+    padding-bottom: 0.5rem;  
+}
+
+#work_experiences_detail .work-experience-block:not(:first-child) {
+    padding-top: 0.5rem;
+}
+
+#education_edit_detail_zone .education-block:not(:last-child) {
+    border-bottom: 1px #eeeeee solid;   
+}
+.education-block {
+    padding-bottom: 0.5rem;  
+    margin-bottom: 1rem;
+}
